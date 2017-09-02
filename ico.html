@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>PAC ICO || Pure Air Industries</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+
+
+	<!-- CSS Files -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/material-kit.css" rel="stylesheet" />
+	<link href="assets/css/mained.min.css" rel="stylesheet" />
+	<link href="assets/css/simple-timer.min.css" rel="stylesheet">
+
+
+</head>
+
+<body class="landing-page">
+	<nav class="navbar-absolute">
+		<span class="nav-items-right pull-right">
+      <span class="nav-item white bold">
+        <span id="newsletter-link">
+          <a>
+            <strong>Sign up</strong>
+          </a>
+          for the Newsletter
+        </span>
+		<form id="newsletter-form" novalidate="">
+			<input id="newsletter-email-input" placeholder="Enter email address" name="email" type="email" required="">
+			<button class="btn positioned" type="submit">Sign up</button>
+			<div class="success"></div>
+			<div class="error"></div>
+		</form>
+		</span>
+		</span>
+	</nav>
+
+	<div class="wrapper">
+		<div class="header header-filter" style="background-image: url('http://il2.picdn.net/shutterstock/videos/15225580/thumb/2.jpg');">
+
+
+			<div class="container">
+				<div class="row">
+					<div class="">
+
+
+						<ul id="countdown">
+						  <li id="days">
+						    <span class="days"></span>
+						    <p class="label">Days</p>
+						  </li>
+						  <li id="hours">
+						    <span class="hours"></span>
+						    <div class="label">Hours</div>
+						  </li>
+						  <li id="minutes">
+						    <span class="minutes"></span>
+						    <div class="label">Minutes</div>
+						  </li>
+						  <li id="seconds">
+						    <span class="seconds"></span>
+						    <div class="label">Seconds</div>
+						  </li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center">
+						<h1 class="title">PAC</h1>
+						<h4>No more pollution deaths</h4>
+						<p>
+							Every transaction in the platform brings us one step closer to eliminating the air pollution.
+						</p>
+						<br />
+						<a href="#" id="video" class="btn btn-danger btn-raised btn-lg btn-main ">
+								<i class="fa fa-play"></i> Watch video
+						</a>
+
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<div class="main main-raised">
+		<canvas id="canvas" class="background full-height" width="100%" height="100%"></canvas>
+		<div class="container">
+			<div class="section text-center section-landing" style="padding-bottom: 2% !important;">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h2 class="title">Every year 7 million people die because of air pollution...</h2>
+						<h5 class="description">Pure Air Industries is developing units to clean open air in cities - removing major pollutants and chemicals in the air. Each unit, while cleaning the air, collects thousands of datapoints and as they become ubiquitous, more data will be available. PureAir Coin (PAC) is the
+						currency to access our DAPP, and by extensions all the capabilities you can find there.</h5>
+					</div>
+				</div>
+
+				<div class="features">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="info">
+								<div class="icon icon-primary">
+									<i class="material-icons">chat</i>
+								</div>
+								<h4 class="info-title">Users first</h4>
+								<p>PAC holders will be able to access the platform, the data and to earn money verifying this data is accurate. Also, our network gives you free wifi wherever our machines are placed.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="info">
+								<div class="icon icon-success">
+									<i class="material-icons">verified_user</i>
+								</div>
+								<h4 class="info-title">Blockchained data with user verification</h4>
+								<p>All the data is locked in a blockchain and all machines are in constant synchronization</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="info">
+								<div class="icon icon-danger">
+									<i class="material-icons">fingerprint</i>
+								</div>
+								<h4 class="info-title">Sponsors</h4>
+								<p>Sponsors are able to pay and promote these units so they are available to everyone soon rather than later.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class=" col-md-6 col-md-offset-3 border"></div>
+
+			<div class="section text-center section-landing resources-section" style="padding-top:2% !important;">
+				<h2 class="title margin-btm">Resources</h2>
+				<div class="row ">
+					<div class="col-md-4 col-md-offset-2">
+
+						<a target="_blank" href="https://s3-us-west-2.amazonaws.com/www.pureairindustries.com/PureAir+Coin+Whitepaper+v.0.0.1.pdf" class="resource">
+	                            <img onload="this.width/=2;" src="assets/img/whitepaper.png" alt="" width="90em">
+	                            <div>
+	                                Technical Whitepaper
+	                            </div>
+	                        </a>
+						</div>
+						<div class="col-md-4 ">
+
+						<a target="_blank" href="https://trello.com/b/xlIevqQf/pureair-roadmap" class="resource">
+	                            <img onload="this.width/=2;" src="assets/img/trello.png" alt="" width="70em" style="margin-bottom: 0.8em;">
+	                            <div>
+	                                Development Plan
+	                            </div>
+	                        </a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<div class=" col-md-6 col-md-offset-3 border"></div>
+
+
+			<div class="section text-center">
+				<h2 class="title">Here is our team</h2>
+
+				<div class="team">
+					<div class="row">
+						<div class="col-md-4 margins">
+							<div class="team-player">
+								<img src="assets/img/isaac.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+								<h4 class="title">Isaac Ramonet <br />
+										<small class="text-muted">Founder &amp; Core developer</small>
+									</h4>
+								<p class="description">Isaac is a serial entrepreneur and inventor.<a href="http://www.isaacramonet.com">You can follow his story here</a>. He has created many apps and webapps before and he is just after this problem by sheer passion.</p>
+								<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-angellist"></i></a>
+								<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
+							</div>
+						</div>
+						<div class="col-md-4 margins">
+							<div class="team-player">
+								<img src="assets/img/christian.jpg" alt="Thumbnail Image" class="img-raised img-circle">
+								<h4 class="title">Jamie Young<br />
+										<small class="text-muted">Mechanical Engineer</small>
+									</h4>
+								<p class="description">You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+								<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-angellist"></i></a>
+								<a href="https://www.linkedin.com/in/jamie-young-6a73b997/detail/photo/" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="team-player margins">
+								<img src="assets/img/adel.png" alt="Thumbnail Image" class="img-raised img-circle">
+								<h4 class="title">Oliver Grange<br />
+										<small class="text-muted">Electrical engineer</small>
+									</h4>
+								<p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+								<a href="#pablo" class="btn btn-simple btn-just-icon"><i class="fa fa-linkedin"></i></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class=" col-md-6 col-md-offset-3 border"></div>
+
+
+			<section class="section landing-section text-center">
+				<h2 class="title">Sponsors</h2>
+
+				<p>Sponsors - you - are a golden piece in this jigsaw puzzle.</p>
+				<p>Your early investment in PACs deploy machines in the real world.</p>
+				<p>These highly-efficient machines are able to clean the air even in high streets, and while doing it they gather lots of data.</p>
+
+				<p>These data is accessible to everyone holding PAC coins.</p>
+
+				<p class="margin-btm">And there is more. If you want to know it all, please apply below.</p>
+
+
+				<div class="row text-center">
+					<a href="https://goo.gl/forms/EOBvfjFY19wRklbI2" class="btn">Join the early sponsorship program</a>
+				</div>
+			</section>
+
+
+			<!-- <section class="pac-instructions pac-instructions-bottom">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="text-center">INSTRUCTIONS:</h1>
+
+					 <div class="pac-instructions-specifics col-md-4">
+						 <ol>
+							<li><strong>Buy Ether</strong> with USD from <a target="_blank" href="https://www.myetherwallet.com">MyEtherWallet</a></li>
+							<li><strong>Transfer</strong> ETH to PAC. Done.</li>
+							<li><strong>Join</strong> PAC Owners Facebook or Slack Group</li>
+						</ol>
+					 </div>
+						<div class="col-md-4">
+							 <div>
+								 <label>ICO Address</label>
+								 <p></p>
+
+								 <label>Custom Data</label>
+								 <p>0xb4427263</p>
+							 </div>
+
+						</div>
+
+					 </div>
+					 <a target="_blank" class="pac-instructions-specifics-participate-button" href="https://medium.com/@stewart_dennis/how-to-participate-in-the-credo-ico-627e02d26058"><strong>Buy PACs!</strong> Go to MyEtherWallet</a>
+
+					</div>
+				</div>
+			 </section> -->
+
+
+
+			<div class="collapse navbar-collapse" id="navigation-example">
+				<ul class="nav navbar-nav navbar-left">
+					<li>
+						<a id="prevent" href="" target="">
+    						Join us in:
+    					</a>
+					</li>
+					<li>
+						<a href="https://www.medium.com" target="_blank" class="btn btn-simple btn-just-icon">
+							<i class="fa fa-medium"></i>
+						</a>
+					</li>
+					<li>
+						<a href="3" target="_blank" class="btn btn-simple btn-just-icon">
+							<i class="fa fa-reddit"></i>
+						</a>
+					</li>
+					<li>
+						<a href="3" target="_blank" class="btn btn-simple btn-just-icon">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+					</li>
+					<li>
+						<a href="3" target="_blank" class="btn btn-simple btn-just-icon">
+							<i class="fa fa-telegram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container pull-left " style="margin: 0 0 0 4%;">
+			<nav class="" >
+				<ul>
+					<li class="bold">
+						💝 Support to otur cause is always welcome
+					</li>
+					<li>
+						<button>
+							ETH: <span id="eth">0x5e8862ceD531245783165009b4EB447a03E965D6</span>
+							<span id="copied-text-eth" class="copied-tag hide" >Copied!</span>
+						</button>
+					</li>
+					<li>
+						<button>
+	            BTC: <span id="btc">1HB5uoEMvA1oVvahYhYZThnHnV3f97xCjX</span>
+							<span id="copied-text-btc" class="copied-tag hide" >Copied!</span>
+	          </button>
+					</li>
+
+					<li class="text-center pull-right">PureAir Coin is a project by <i class="fa fa-wpexplorer"></i><a href="www.pureairindustries.com">Pure Air Industries</a>
+					</li>
+				</ul>
+
+				</nav>
+				<div class="text-center copyright   " style="position: absolute; right: 15%; bottom: 1%;">
+
+				</div>
+		</div>
+	</footer>
+
+	</div>
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/material.min.js"></script>
+
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js" type="text/javascript"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" type="text/javascript"></script>
+
+<script src="assets/js/constellation.min.js" type="text/javascript"></script>
+
+
+<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+<script src="assets/js/material-kit.min.js" type="text/javascript"></script>
+
+<script src="assets/js/simple-timer.min.js" type="text/javascript"></script>
+
+<script src="assets/js/validator.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+	$('#prevent').click(function() {
+		$(this).preventDefault();
+	})
+
+	$('#prevent').mouseenter(function() {
+		$(this).css('background-color', '#fff');
+		$(this).css('color', 'black');
+	});
+
+	$('#newsletter-link').click(function (){
+		var n = $('#newsletter-form');
+	 	var isVisible = (n.css('opacity') == 0) ? n.css('opacity', 1) : n.css('opacity', 0);
+	});
+
+	$('#video').click(function () {
+		$('.fa fa-play').css('opacity', 0);
+		$(this).contents().text();
+		$(this).contents().text('Available soon...');
+		$(this).contents('');
+	});
+</script>
+
+
+<script type="text/javascript">
+	function hide(elem) {
+		elem.addClass('hide');
+	}
+
+	function copyWallet(elem, copyTag) {
+		var copied;
+
+		try {
+			copied = document.execCommand('copy');
+			console.log('copied: '+ copied);
+		} catch (ex) {
+			copied = false;
+			console.log('not copied');
+		}
+
+		if (copied) {
+			copyTag.removeClass('hide')
+			window.setTimeout(function() {
+				hide(copyTag);
+			}, 800);
+
+		}
+	}
+
+	$('#eth').click(function() {
+		var copied;
+
+		try {
+			copied = document.execCommand('copy');
+		} catch (ex) {
+			console.log('not copied-tag')
+			copied = false;
+		}
+
+		var tag = $('#copied-text-eth')
+
+		if (copied) {
+			tag.removeClass('hide')
+			window.setTimeout(function() {
+				hide(tag);
+			}, 800);
+
+		}
+	});
+
+	$('#btc').click(function() {
+		var tag = $('#copied-text-btc')
+		copyWallet($(this).text(), tag);
+	});
+</script>
+
+
+</html>
